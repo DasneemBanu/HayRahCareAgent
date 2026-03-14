@@ -1,16 +1,11 @@
-
-
-import streamlit as st
 import google.generativeai as genai
 
-api_key = st.secrets["GEMINI_API_KEY"]
-genai.configure(api_key=api_key)
+genai.configure(api_key="APIKEYS")
 
-model = genai.GenerativeModel("gemini-1.5-flash-latest")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 def summarize_research(question, context):
-    # truncate context just in case
-    context = context[:4000]
+
     prompt = f"""
 You are HayRahCare, a mental health research assistant.
 
@@ -23,5 +18,7 @@ Question:
 
 Provide a clear evidence-based summary.
 """
+
     response = model.generate_content(prompt)
+
     return response.text
