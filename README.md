@@ -23,7 +23,8 @@ The infographic illustrates the **logical communication** flow within the HayRah
     *   Performs complex data analysis and synthesis.
     *   Uses advanced AI to transform raw research into evidence-based insights.
   
-    ![Infographic Illustration:]("C:\Users\User\Downloads\notebooklm-agent.png")
+    ![Infographic Illustration:](notebooklm-agent.png)
+    
 
 ## 🔄 Workflow Logic
 
@@ -35,12 +36,7 @@ The infographic uses a sequential flow to represent the system's **process** :
 4.  **Synthesis:** Summarizer Agent (Gemini) analyzes the evidence.
 5.  **Delivery:** The final synthesized response is returned to the user.
 
-## 🛠️ Design Standards
 
-In alignment with **Software Engineering Quality Focus** , this architecture emphasizes:
-*   **Modularity:** Each agent operates as a distinct functional unit.
-*   **Reliability:** Ensuring accurate data retrieval from verified research databases.
-*   **Documentation:** This README serves as a high-level summary of the system's **Software Requirements Specification (SRS)** .
 
 ---
 *Note: This architecture is a conceptual model for the HayRahCare Research Swarm.*
