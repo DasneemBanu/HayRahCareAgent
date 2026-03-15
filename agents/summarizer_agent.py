@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="GEMINI_API_KEY")  #GEMINI_API_KEY IS REMOVED!
+genai.configure(api_key="GEMINI_API_KEY")  #GEMINI_API_KEY IS REMOVED
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
